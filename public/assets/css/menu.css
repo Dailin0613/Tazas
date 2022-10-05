@@ -1,0 +1,65 @@
+:root{
+    --bg: #f47edd;
+    --bgo: #801155;
+    --bgt: #f2c5ff;
+    --bo: #1c0c5b;
+    --bt: #3d2c8d;
+    --bth: #916bbf;
+    --bf: #c996cc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: var(--bg);
+    background: linear-gradient (var(--bgt), var(--bgo));
+    background: no-repeat;
+    font-size: 25px;
+    color: var(--bgo);
+    width: 100%;
+    text-shadow: var(--bth);
+}
+
+.main-container .boxs{
+    height: 25%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main-container .boxs .item{
+    background-color: var(--bf);
+    border: 1px solid var(--bg);
+    border-radius: 20px;
+    box-shadow: 10px var(--bgo);
+    height: 100px;
+    overflow: hidden;
+}
+
+.main-container .boxs .item a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.main-container .boxs .item a:hover{
+    color: var(--bth);
+}
+
+.main-container .boxs .item a:focus{
+    color: var(--bo);
+}
+
+.main-container .boxs .item a:link{
+    color: var(--bt);
+}
+
+@media only screen and (max-width: 600px) {
+    .main-container .boxs{
+        height: 5%;
+    }
+}

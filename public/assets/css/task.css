@@ -1,0 +1,83 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+.container .all-container{
+    position: relative;
+    width: 350px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #8f388d;
+    box-shadow: 25px 25px 75px #8f388d, 
+                10px 10px 70px #8f388d, 
+                inset 5px 5px 10px #7a3179,
+                inset 5px 5px 20px #ffffff33,
+                inset -5px -5px 15px #7a3179;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.container .all-container form{
+    position: relative;
+    width: 100%;
+}
+
+.container .all-container h2{
+    color: #916bbf;
+    font-weight: 600;
+    font-size: 2em;
+    font-weight: normal;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 45px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.container .all-container form .input-box{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.container .all-container form .input-box span{
+    display: inline-block;
+    color: #1c0c5b;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.75em;
+    border-left: 4px solid #1c0c5b;
+    padding-left: 4px;
+    line-height: 1em;
+    
+}
+
+.container .all-container form .input-box .box input{
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 7px #8d2c7a,
+                inset 2px 2px 5px #8d2e9b,
+                inset -3px -3px 5px #771f7c;
+}
+
+.container .all-container form .input-box .box input[type='submit']{
+    background: #801155;
+    color: #1c0c5b;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+

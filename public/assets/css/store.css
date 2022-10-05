@@ -1,0 +1,85 @@
+.card-header .nav-pills{
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+}
+
+.card-header ul{
+    list-style: none;
+}
+
+.card-header .nav-pills .nav-item{
+    padding-right: 15px;
+}
+
+.card-header .nav-pills .nav-item a{
+    text-decoration: none;
+    color: #8f388d;
+}
+
+.all-task{
+    position: relative;
+    width: 350px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #8f388d;
+    box-shadow: 25px 25px 75px #8f388d, 
+                10px 10px 70px #8f388d, 
+                inset 5px 5px 10px #7a3179,
+                inset 5px 5px 20px #ffffff33,
+                inset -5px -5px 15px #7a3179;
+    border-radius: 30px;
+    padding: 50px;
+    overflow-y: scroll;
+}
+
+.all-task .a-task{
+    justify-content: center;
+    align-items: center;
+    margin: inherit;
+    text-transform: uppercase;
+}
+
+.all-task .a-task h1{
+    padding-bottom: 10px;
+}
+
+.all-task .a-task .task{
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.all-task .a-task .task .tasks a{
+    text-decoration: none;
+    justify-content: center;
+    display: flex;
+    box-shadow: 5px 5px 5px 5px;
+    margin-bottom: 10px;
+}
+
+.all-task .a-task .task .tasks button{
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 7px #8d2c7a,
+                inset 2px 2px 5px #8d2e9b,
+                inset -3px -3px 5px #771f7c;
+}
+
+.all-task .a-task .task .tasks .btn{
+    background: #801155;
+    color: #1c0c5b;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+

@@ -1,0 +1,20 @@
+:root{
+    --primary: #ef58d1;
+    --secondary: #510b36;
+    --third: #dda0dc;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--primary);
+    color: var(--third);
+    width: 100%;
+    height: 100%;
+    text-shadow: var(--third);
+}
+
+
